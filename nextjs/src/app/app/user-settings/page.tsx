@@ -90,7 +90,7 @@ export default function UserSettingsPage() {
                         </CardHeader>
                         <CardContent className="space-y-4">
                             <div>
-                                <label className="text-sm font-medium text-gray-500">User ID</label>
+                                <label className="text-sm font-medium text-gray-500">شماره کاربری</label>
                                 <p className="mt-1 text-sm">{user?.id}</p>
                             </div>
                             <div>

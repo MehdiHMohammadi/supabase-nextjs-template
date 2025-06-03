@@ -49,7 +49,7 @@ export default function Home() {
   const stats = [
     { label: 'Active Users', value: '10K+' },
     { label: 'Organizations', value: '2K+' },
-    { label: 'Countries', value: '50+' },
+    { label: 'Countries', value: '4+' },
     { label: 'Uptime', value: '99.9%' }
   ];
 
@@ -86,7 +86,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                  Grab This Template
+                  Examples More...
                 </Link>
 
                 <AuthAwareButtons variant="nav" />
@@ -99,7 +99,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
-                Bootstrap Your SaaS
+                JustiQ Your Legal Ai
                 <span className="block text-primary-600">In 5 minutes</span>
               </h1>
               <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
@@ -130,9 +130,9 @@ export default function Home() {
         <section id="features" className="py-24 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold">Everything You Need</h2>
+              <h2 className="text-3xl font-bold">Everything you need for a legal problem</h2>
               <p className="mt-4 text-xl text-gray-600">
-                Built with modern technologies for reliability and speed
+                Minimize time and costs with us.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

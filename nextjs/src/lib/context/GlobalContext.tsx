@@ -37,11 +37,11 @@ export function GlobalProvider({ children }: { children: React.ReactNode }) {
                         registered_at: new Date(user.created_at)
                     });
                 } else {
-                    throw new Error('User not found');
+                    throw new Error('کاربر پیدا نشد!!؟');
                 }
 
             } catch (error) {
-                console.error('Error loading data:', error);
+                console.error('خطای دریافت اطلاعات ::', error);
             } finally {
                 setLoading(false);
             }
@@ -60,7 +60,7 @@ export function GlobalProvider({ children }: { children: React.ReactNode }) {
 export const useGlobal = () => {
     const context = useContext(GlobalContext);
     if (context === undefined) {
-        throw new Error('useGlobal must be used within a GlobalProvider');
+        throw new Error('useGlobal باید درون یک GlobalProvider استفاده شود.');
     }
     return context;
 };
